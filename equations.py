@@ -47,9 +47,7 @@ def calculate(x: float) -> float:
     return exponent(x) * XtimesY(7, x) * XtimesY(x, -1) * sqrt(x, x)
 
 
-x = input("what the number to calculate with the formula? ")
-x = float(x)
-print(calculate(x))
+
 
 
 
